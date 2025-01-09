@@ -1,0 +1,11 @@
+.related-productd{
+    margin-top: 30px;
+}
+
+.related-productd-components{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 30px;
+    row-gap: 50px;
+    margin-top: 30px;
+}

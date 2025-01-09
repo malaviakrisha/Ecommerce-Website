@@ -1,0 +1,92 @@
+.ceramic-item{
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+
+.ceramic-item-image{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.ceramic-item-image:hover{
+    scale: 1.1;
+    transition: ease-in-out;
+    cursor: pointer;
+}
+
+.ceramic-item-info{
+    padding: 20px;
+}
+
+.ceramic-item-name-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ceramic-item-name-rating p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ceramic-item-name-rating img{
+    width: 70px;
+}
+
+.ceramic-item-desc{
+    color: #676767;
+    font-size: 12px;
+}
+
+.ceramic-item-cost{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.ceramic-item-price{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.ceramic-item-newprice{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0px;
+    color: red;
+}
+
+.ceramic-item-img-container{
+    position: relative;
+}
+
+.ceramic-item-img-container .add{
+    width: 35px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.ceramic-item-counter{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.ceramic-item-counter img{
+    width: 30px;
+}

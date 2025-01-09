@@ -1,0 +1,23 @@
+.ceramic-display{
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.ceramic-display h1{
+    margin-top: 15px;
+}
+
+.ceramic-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
+
+@media(max-width: 750px) {
+    .ceramic-display {
+        margin-top: 150px;
+        /* Increase the margin for smaller screens */
+    }
+}

@@ -1,0 +1,15 @@
+.sale-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sale-top select {
+    border: none;
+    font-size:medium;
+}
+
+.sale-middle .ceramic-item-price{
+    text-decoration: line-through;
+}

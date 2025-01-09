@@ -1,0 +1,42 @@
+.product{
+    flex-direction:column-reverse;
+    flex: 1;
+    gap: 3;
+}
+
+.product-data{
+    display: flex;
+}
+
+.product-image{
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-between;
+    width:fit-content;
+    width: 360px;
+}
+
+.product-info{
+    padding-left: 150px;
+}
+
+.product-info h2 {
+    margin-top: 35px;
+}
+
+.product-info h3 {
+    margin-top: 5px;
+}
+
+.product-info .product-info-desc {
+    margin-top: 35px;
+}
+
+.product-info-desc textarea{
+    width: max(60%, 580px);
+    margin-top: 10px;
+}
+
+.prods{
+    opacity: 0;
+}

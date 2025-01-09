@@ -1,0 +1,26 @@
+{
+  "name": "Quirklay",
+  "short_name": "Quirklay",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3399cc",
+  "icons": [
+    {
+      "src": "/razorpay_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/razorpay_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "serviceworker": {
+    "src": "/serviceworker.js",
+    "scope": "/",
+    "type": "module",
+    "use_cache": true
+  }
+}

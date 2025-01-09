@@ -1,0 +1,128 @@
+.header {
+    height: 56vw;
+    background-size: contain;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0%;
+}
+
+.header-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2vw;
+    max-width: 100%;
+    animation: fadeIn 3s;
+    padding-top: 70px;
+}
+
+.header-contents h2 {
+    font-weight: 500;
+    color: black;
+    font-size: max(4.5vw, 22px);
+}
+
+.header-contents p {
+    color: black;
+    font-size: 2vw;
+}
+
+.header-contents button {
+    border: none;
+    color: black;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: #ffebf3;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+}
+
+@media(max-width: 1450px) {
+    .header {
+        height: 50vw;
+        /* Ensure the image doesn't shrink too much */
+        background-size: cover;
+        /* Ensure full coverage of the image */
+    }
+
+    .header-contents {
+        max-width: 80%;
+        padding-top: 30px;
+        align-items: center;
+    }
+
+    .header-contents h2 {
+        font-size: max(6vw, 18px);
+        /* Adjust heading size for better readability */
+    }
+
+    .header-contents button {
+        padding: 2.5vw 5vw;
+        /* Increase button size */
+    }
+
+    .header_img {
+        width: 100%;
+        /* Ensure the image scales to fit the container */
+        height: auto;
+    }
+}
+
+@media(max-width: 900px) {
+    .header {
+        height: 45vw;
+        /* Adjust the height to ensure the image is visible */
+        background-size: cover;
+        /* Make sure the image covers the background area */
+    }
+
+    .header-contents {
+        max-width: 65%;
+        align-items: center;
+    }
+
+    .header-contents h2 {
+        font-size: max(5vw, 20px);
+        /* Adjust the heading size */
+    }
+
+    .header-contents button {
+        padding: 1.5vw 3vw;
+        /* Adjust the button size */
+    }
+    .header_img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-width: 750px) {
+    .header {
+        height: 50vw;
+        /* Ensure the image doesn't shrink too much */
+        background-size: cover;
+        /* Ensure full coverage of the image */
+    }
+
+    .header-contents {
+        max-width: 80%;
+        padding-top: 30px;
+        align-items: center;
+    }
+
+    .header-contents h2 {
+        font-size: max(6vw, 18px);
+        /* Adjust heading size for better readability */
+    }
+
+    .header-contents button {
+        padding: 2.5vw 5vw;
+        /* Increase button size */
+    }
+
+    .header_img {
+        width: 100%;
+        /* Ensure the image scales to fit the container */
+        height: auto;
+    }
+}

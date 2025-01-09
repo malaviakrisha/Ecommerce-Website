@@ -1,0 +1,11 @@
+.shop-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.shop-top select{
+    border: none;
+    font-size: medium;
+}
