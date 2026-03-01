@@ -23,9 +23,6 @@ text
 2. Open `index.html` in your web browser.
 3. Start shopping!
 
-## 📱 Demo
-Check the live preview by opening the site in any modern browser. Screenshots or a deployed link can be added here (e.g., GitHub Pages).
-
 ## 📂 Folder Structure
 Ecommerce-Website/
 ├── index.html
@@ -40,4 +37,4 @@ Ecommerce-Website/
 Feel free to fork the repo, raise issues, or submit pull requests. Suggestions welcome!
 
 ## 👨‍💻 Author
-Krisha Malavia - MCA Student | [LinkedIn](https://www.linkedin.com/in/krisha-malavia-159b5a245) | Mumbai, India
+Krisha Malavia - MCA Student | [LinkedIn](https://www.linkedin.com/in/krisha-malavia/) | Mumbai, India
